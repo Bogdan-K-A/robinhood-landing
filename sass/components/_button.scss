@@ -1,0 +1,15 @@
+.btn {
+  border-radius: 30px;
+  padding: 24px 41px;
+
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1.65px;
+
+  text-align: center;
+  letter-spacing: 0.25px;
+}
+.corrent-btn:hover {
+  background: var(--batton-hover);
+  /* color: var(--primary-white-color); */
+}

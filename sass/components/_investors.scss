@@ -1,0 +1,96 @@
+.section-investors {
+  padding-top: 31px;
+}
+
+.investors,
+.investors-box-flex {
+  display: flex;
+}
+
+.investors::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+
+  height: 0px;
+  left: 0px;
+  top: 1312px;
+
+  border: 1px solid #000000;
+}
+
+.investors-text {
+  margin-bottom: 31px;
+
+  text-align: center;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.25px;
+}
+
+.investors-text span {
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+
+.investors-text::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+
+  height: 0px;
+  left: 0px;
+  top: 768px;
+
+  border: 1px solid #000000;
+}
+.investors-text::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+
+  height: 0px;
+  left: 0px;
+  top: 859px;
+
+  border: 1px solid #000000;
+}
+
+.investors-content {
+  position: absolute;
+
+  padding: 166px 0 160px 720px;
+}
+
+.investors-title {
+  margin-bottom: 41px;
+
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.33;
+  letter-spacing: 1.75px;
+}
+.investos-see {
+  margin-right: 5px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.25px;
+}
+
+// .investors-img
+.investors-img {
+  width: 807px;
+  height: 454px;
+
+  position: relative;
+  bottom: -1px;
+  left: -117px;
+
+  background-image: url(../../images/content/superbowl.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

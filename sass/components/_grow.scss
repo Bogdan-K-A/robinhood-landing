@@ -1,0 +1,90 @@
+.grow {
+  padding: 90px 0 90px 0;
+  background-color: var(--primary-black-color);
+}
+
+.grow-container {
+  display: flex;
+  align-items: center;
+}
+
+.grow-menu-box {
+  margin-right: 70px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.grow-menu-box::before,
+.grow-menu-box::after {
+  content: '';
+  width: 21px;
+  height: 21px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.grow-menu-box::before {
+  margin-bottom: 20px;
+  display: inline-block;
+  background-image: url(../../images/icons/select-arrow.svg);
+}
+
+.grow-menu-box::after {
+  background-image: url(../../images/icons/select-arrow.svg);
+  display: inline-block;
+  transform: rotate(180deg);
+}
+
+.grow-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.grow-list-item {
+  margin-bottom: 20px;
+
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1.6;
+  letter-spacing: 0.24px;
+
+  color: #545d61;
+}
+
+.grow-list-item:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.grow-list-item-current {
+  color: #ffffff;
+}
+
+.grow-img {
+  margin-right: 90px;
+}
+
+.grow-title {
+  margin-bottom: 20px;
+
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 1.33;
+  letter-spacing: 1.75px;
+
+  color: #ffffff;
+}
+
+.grow-text {
+  width: 446px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.25px;
+
+  color: #ffffff;
+}

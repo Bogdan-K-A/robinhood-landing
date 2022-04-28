@@ -1,6 +1,12 @@
+.header {
+  text-align: -webkit-center;
+}
+
 .header-container {
+  width: 1440px;
+
   display: flex;
-  outline: 1px solid red;
+  // outline: 1px solid red;
   padding: 0px 25px;
 
   align-items: center;
@@ -36,7 +42,7 @@
 }
 
 .nav-link {
-  display: block;
+  display: flex;
   padding: 17px 0;
   // background: rgb(209, 209, 209);
 }
@@ -53,7 +59,7 @@
   margin-left: 12px;
 }
 
-.nav-link-img:hover {
+.nav-item:hover .nav-link-img {
   transform: rotate(180deg);
 }
 

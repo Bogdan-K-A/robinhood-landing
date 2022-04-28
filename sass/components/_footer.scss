@@ -1,0 +1,168 @@
+.footer {
+  padding: 54px 0 36px 0;
+
+  background-color: var(--primary-black-color);
+}
+
+.footer-lists {
+  display: flex;
+}
+
+.footer-lists-text {
+  margin-bottom: 16px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.25px;
+
+  color: #ffffff;
+}
+
+.footer-list-one {
+  margin-right: 50px;
+}
+.footer-list-two {
+  margin-right: 138px;
+}
+// .footer-list-three {
+//   margin-right: 242px;
+// }
+
+.footer-lists-item {
+  width: 492px;
+
+  margin-left: auto;
+}
+.footer-form-position {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer-text-before-form {
+  width: 470px;
+
+  margin-bottom: 10px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.25px;
+
+  color: #79858b;
+}
+
+.footer-text-after-form {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+
+  letter-spacing: 0.25px;
+
+  color: #ffffff;
+}
+.footer-text-after-form:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.footer-text-after-form:last-child {
+  margin-bottom: 36px;
+}
+
+.footer-snack {
+  margin-bottom: 22px;
+}
+
+.footer-form-input {
+  padding: 18px 185px 18px 37px;
+
+  margin-bottom: 27px;
+
+  width: 492px;
+  height: 64px;
+
+  background: #1e2124;
+  border: none;
+  border-radius: 32px;
+
+  color: #ffffff;
+}
+.footer-form {
+  position: relative;
+}
+
+.footer-form-btn {
+  position: absolute;
+
+  top: 18px;
+  right: 15px;
+
+  padding: 0px 36px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.6;
+
+  text-align: center;
+  letter-spacing: 0.25px;
+
+  background: #00c805;
+}
+
+.footer-form-btn:hover {
+  box-shadow: 0 0 10px var(--batton-hover);
+  color: #ffffff;
+  transition: all 250ms ease-out;
+}
+
+.footer-solid {
+  margin-bottom: 36px;
+
+  border: 1px solid #79858b;
+}
+
+.footer-bottom-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+
+  letter-spacing: 0.1px;
+
+  color: #ffffff;
+}
+
+.footer-bottom-text:not(:last-child) {
+  margin-bottom: 24px;
+}
+.footer-bottom-text:last-child {
+  margin-bottom: 32px;
+}
+.footer-bottom-text span {
+  margin: 0 24px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.1px;
+
+  color: #00c805;
+}
+
+.footer-action-box {
+  display: flex;
+}
+.footer-action-img {
+  margin-right: 12px;
+}
+
+.footer-action-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+
+  letter-spacing: 0.25px;
+
+  color: #79858b;
+}

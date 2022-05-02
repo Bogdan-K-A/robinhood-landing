@@ -61,6 +61,7 @@
 
 .nav-item:hover .nav-link-img {
   transform: rotate(180deg);
+  transition: all 250ms ease-out;
 }
 
 .header-btn {

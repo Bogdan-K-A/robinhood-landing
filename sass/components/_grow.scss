@@ -8,16 +8,8 @@
   align-items: center;
 }
 
-.grow-menu-box {
-  margin-right: 70px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.grow-menu-box::before,
-.grow-menu-box::after {
+.grow-list::before,
+.grow-list::after {
   content: '';
   width: 21px;
   height: 21px;
@@ -25,19 +17,21 @@
   background-repeat: no-repeat;
 }
 
-.grow-menu-box::before {
+.grow-list::before {
   margin-bottom: 20px;
   display: inline-block;
   background-image: url(../images/icons/select-arrow.svg);
 }
 
-.grow-menu-box::after {
+.grow-list::after {
   background-image: url(../images/icons/select-arrow.svg);
   display: inline-block;
   transform: rotate(180deg);
 }
 
 .grow-list {
+  margin-right: 70px;
+
   display: flex;
   flex-direction: column;
   align-items: flex-end;

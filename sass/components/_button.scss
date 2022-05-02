@@ -14,5 +14,6 @@
 }
 .corrent-btn:hover {
   background: var(--batton-hover);
+  transition: all 250ms ease-out;
   /* color: var(--primary-white-color); */
 }

@@ -28,11 +28,11 @@
 .grow-menu-box::before {
   margin-bottom: 20px;
   display: inline-block;
-  background-image: url(../../images/icons/select-arrow.svg);
+  background-image: url(../images/icons/select-arrow.svg);
 }
 
 .grow-menu-box::after {
-  background-image: url(../../images/icons/select-arrow.svg);
+  background-image: url(../images/icons/select-arrow.svg);
   display: inline-block;
   transform: rotate(180deg);
 }
